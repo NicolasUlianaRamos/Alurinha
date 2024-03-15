@@ -1,0 +1,114 @@
+@media(min-width: 1000px) {
+    .cabecalhoPrincipal .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .cabecalhoPrincipal-nav{
+        display: flex;
+    }
+
+    .rodapePrincipal-patrocinadores .container{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .rodapePrincipal-patrocinadores-list{
+        display: flex;
+        align-items: center;
+        width: 50%;
+        justify-content: space-between;
+    }
+
+    .rodapePrincipal-contatoForm-fieldset{
+        display: flex;
+    }
+
+    .rodapePrincipal-navMap-list{
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .conteudoPrincipal-cursos{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .conteudoPrincipal-cursos-link{
+        width: 23%;
+        margin: 1%;
+    }
+
+    .conteudoPrincipal-cursos-link:nth-child(4n){
+        margin-right: 0;
+    }
+    .conteudoPrincipal-cursos-link:nth-child(4n+1){
+        margin-left: 0;
+    }
+
+
+    .videoSobre .container{
+        display: flex;
+    }
+
+    .videoSobre-sobre{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+
+    .videoSobre-sobre-list{
+        flex-grow: 1;
+    }
+
+    .videoSobre-video{
+        flex-grow: 1;
+    }
+
+}
+@media(max-width: 600px){
+    .cabecalhoPrincipal .container{
+        flex-direction: column;
+        align-items: initial;
+        text-align: center;
+    }
+    
+    .cabecalhoPrincipal-nav{
+        flex-direction: column;
+    }
+    .cabecalhoPrincipal-nav-link-app {
+        order: -1;
+    }
+}
+
+.divCursos__linguagens{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.rodapePrincipal-patrocinadores-list{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.rodapePrincipal-contatoForm-fieldset{
+    display: flex;
+    justify-content: center;
+}
+
+.videoSobre-button{
+    cursor: pointer;
+}
+.videoSobre-sobre{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap-reverse;
+}
+
